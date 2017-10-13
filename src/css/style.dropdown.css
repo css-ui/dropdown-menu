@@ -48,8 +48,9 @@
 .dropdown ul.expand-dropdown li a {
     background-color: rgba(72, 72, 72, 1);
      text-decoration: none;
+       margin-bottom: -1px;
              display: block;
-             padding: 5px 10px;
+             padding: 3px 10px;
 	       color: white;
 }
 
