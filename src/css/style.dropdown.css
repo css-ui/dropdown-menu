@@ -12,14 +12,8 @@
 .dropdown .employ-toggle { text-decoration: none; }
 .dropdown .employ-toggle.click {
     border-radius: 30px;
-       transition: all 0.1s ease-in-out;
         font-size: 14px;
           padding: 2px 12px;
-            color: #acacac;
-}
-
-.dropdown .employ-toggle.click:hover {
-    background-color: white;
 }
 
 .dropdown ul.expand-dropdown {
@@ -47,15 +41,8 @@
 }
 
 .dropdown ul.expand-dropdown li a {
-    background-color: rgba(72, 72, 72, 1);
-     text-decoration: none;
-       margin-bottom: -1px;
-             display: block;
-             padding: 3px 10px;
-	       color: white;
-}
-
-.dropdown ul.expand-dropdown li a:hover {
-    background-color: rgba(54, 54, 54, 1);
-               color: white;
+    text-decoration: none;
+      margin-bottom: -1px;
+            display: block;
+            padding: 3px 10px;
 }
