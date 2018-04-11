@@ -12,11 +12,11 @@
 }
 
 .dropdown ul.expand-dropdown li a {
-    background-color: rgba(72, 72, 72, 1);
-	       color: white;
+    background-color: rgb(29, 34, 44);
+	       color: #9197a1;
 }
 
 .dropdown ul.expand-dropdown li a:hover {
-    background-color: rgba(54, 54, 54, 1);
-               color: inherit;
+    background-color: rgb(39, 48, 63);
+               color: #10a2f1;
 }
