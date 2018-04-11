@@ -12,13 +12,14 @@
 .dropdown .employ-toggle { text-decoration: none; }
 .dropdown .employ-toggle.click {
     border-radius: 30px;
+       transition: all 0.1s ease-in-out;
         font-size: 14px;
           padding: 2px 12px;
-            color: #2d2d2d;
+            color: #acacac;
 }
 
 .dropdown .employ-toggle.click:hover {
-    background-color: #d9d9d9;
+    background-color: white;
 }
 
 .dropdown ul.expand-dropdown {
