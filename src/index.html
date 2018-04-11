@@ -52,10 +52,10 @@
 		$(function() {
 			$('.employ-toggle').on('click', function() {
 				var dropdown = '.expand-dropdown';
-				var employ   = '.employ-toggle';
 				$(dropdown).fadeToggle('fast');
 				$(dropdown).on('click', function(e) {
 					var target = e.target;
+					var employ = '.employ-toggle';
 					if (!$(target).is(employ) && !$(target).parents().is(employ)) {
 						$(dropdown).hide();
 					}
