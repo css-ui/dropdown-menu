@@ -15,34 +15,43 @@
 	<link rel="stylesheet" href="css/style.dropdown.css">
 
 	<!-- css dropdown themes -->
-	<link rel="stylesheet" href="css/theme/style.dropdown.light.css">
-	<!--<link rel="stylesheet" href="css/theme/style.dropdown.dark.css">-->
+	<!--<link rel="stylesheet" href="css/theme/style.dropdown.light.css">-->
+	<link rel="stylesheet" href="css/theme/style.dropdown.dark.css">
 	<style>
 		body {
-			background-color: #f2f2f2;
-			     font-family: 'Open Sans', sans-serif;
+		    background-color: #f2f2f2;
+		         font-family: 'Open Sans', sans-serif;
 		}
 	</style>
 </head>
 <body>
-	<div class="wrapper" style="padding: 25px; width: 200px;">
+	<!--
+		sample page
+	-->
+	<div class="container" style="width: 600px; padding-top: 50px;">
+		<h2>CSS UI - Dropdown menu</h2>
+		<div class="clear">
+			<div class="float left">Click to menu</div>
+			<div class="float left">
 
-		<!-- dropdown menu -->
-		<div class="dropdown">
+				<!-- dropdown menu -->
+				<div class="dropdown light">
 
-			<!-- dropdown menu click -->
-			<div class="clear">
-				<a class="employ-toggle click float right" href="#">
-					<i class="fa fa-ellipsis-v " aria-hidden="true"></i>
-				</a>
+					<!-- dropdown menu click -->
+					<div class="clear">
+						<a class="employ-toggle click float right" href="#">
+							<i class="fa fa-ellipsis-v " aria-hidden="true"></i>
+						</a>
+					</div>
+
+					<!-- show or hide menu -->
+					<ul class="expand-dropdown">
+						<li><a href="#" class="top">One</a></li>
+						<li><a href="#">Two</a></li>
+						<li><a href="#" class="bottom">Three</a></li>
+					</ul>
+				</div>
 			</div>
-
-			<!-- show or hide menu -->
-			<ul class="expand-dropdown">
-				<li><a href="#" class="top">One</a></li>
-				<li><a href="#">Two</a></li>
-				<li><a href="#" class="bottom">Three</a></li>
-			</ul>
 		</div>
 	</div>
 
