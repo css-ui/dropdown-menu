@@ -10,7 +10,8 @@ npm install --save css-ui-dropdown-menu
 
 ## Demo
 
-- https://css-ui.github.io/dropdown.menu
+- https://css-ui.github.io/dropdown.menu/light
+- https://css-ui.github.io/dropdown.menu/dark
 
 ## Quick start
 
