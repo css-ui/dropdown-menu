@@ -18,6 +18,7 @@ npm install --save css-ui-dropdown-menu
 CSS dependencies.
 
 ```html
+<link rel="stylesheet" href="path/to/normalize.css">
 <link rel="stylesheet" href="path/to/font-awesome.css">
 <link rel="stylesheet" href="path/to/open-sans.css">
 <link rel="stylesheet" href="path/to/cssui.css">
