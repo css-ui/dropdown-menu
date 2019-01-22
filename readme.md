@@ -1,4 +1,4 @@
-## Dropdown menu
+## CSS UI - Dropdown menu
 
 Simple dropdown menu.
 
@@ -24,27 +24,23 @@ CSS dependencies.
 <link rel="stylesheet" href="path/to/cssui.css">
 ```
 
-CSS dropdown style.
+CSS dropdown.
 
 ```html
 <link rel="stylesheet" href="path/to/style.dropdown.css">
 ```
 
-CSS light or dark theme for menu. Choose one.
+CSS light or dark theme. Choose one.
 
 ```html
 <link rel="stylesheet" href="path/to/style.dropdown.light.css">
 <link rel="stylesheet" href="path/to/style.dropdown.dark.css">
 ```
 
-Set font.
+Use Open Sans fotns.
 
-```html
-<style>
-	body {
-		font-family: 'Open Sans', sans-serif;
-	}
-</style>
+```css
+font-family: 'Open Sans', sans-serif;
 ```
 
 Dropdown menu html.
@@ -88,4 +84,4 @@ javascript libraries and plugins.
 	});
 </script>
 ```
-Enjoy the dropdown.
+Enjoy dropdown menu.
