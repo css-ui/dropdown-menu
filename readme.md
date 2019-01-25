@@ -68,20 +68,6 @@ javascript libraries and plugins.
 
 ```html
 <script src="path/to/jquery.js"></script>
-<script>
-	$(function() {
-		$('.employ-toggle').on('click', function() {
-			var dropdown = '.expand-dropdown';
-			$(dropdown).fadeToggle('fast');
-			$(dropdown).on('click', function(e) {
-				var target = e.target;
-				var employ = '.employ-toggle';
-				if (!$(target).is(employ) && !$(target).parents().is(employ)) {
-					$(dropdown).hide();
-				}
-			});
-		});
-	});
-</script>
+<script src="path/to/dropdown.menu.js"></script>
 ```
 Enjoy dropdown menu.

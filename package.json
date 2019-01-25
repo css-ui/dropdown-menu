@@ -1,6 +1,6 @@
 {
 	"name": "css-ui-dropdown-menu",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "Simple dropdown menu.",
 	"main": "css/style.dropdown.css",
 	"repository": {
@@ -16,7 +16,7 @@
 		"url": "https://github.com/css-ui/dropdown-menu/issues"
 	},
 	"dependencies": {
-		"css-ui-simple": "^2.5.1",
+		"css-ui-simple": "^2.5.2",
 		"open-sans-fontface": "^1.4.0",
 		"jquery": "^3.3.1",
 		"font-awesome": "^4.7.0"
